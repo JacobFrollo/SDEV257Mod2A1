@@ -5,8 +5,10 @@ import Row from "./Row";
 import Column from "./Column";
 import Box from "./Box";
 
+//Generates boxes
 export default function App() {
     return (
+        //Styles the boxes
         <View style={styles.container}>
             <StatusBar hidden={false} />
             <Row>
