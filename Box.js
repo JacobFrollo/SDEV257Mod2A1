@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { View, Text } from "react-native";
 import styles from "./styles";
 
+//Styles the boxes
 export default function Box({ children }) {
     return (
         <View style={styles.box}>
@@ -11,6 +12,7 @@ export default function Box({ children }) {
     );
 }
 
+//Creates the boxes
 Box.propTypes = {
     children: PropTypes.node.isRequired,
 };
